@@ -3,8 +3,6 @@ import sys
 import math
 import random
 from lidar import Lidar
-import matplotlib.pyplot as plt
-from matplotlib import patches
 from visualizer import Visualizer
 from vehicle import Vehicle
 from gap_follower import gap_follower 

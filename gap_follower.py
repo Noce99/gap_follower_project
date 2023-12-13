@@ -1,7 +1,6 @@
 import math
 import utils
 import numpy as np
-from typing import Callable
 
 # MODIFY FROM HERE ...
 """
@@ -22,7 +21,7 @@ utils.ERROR_SIZE = 1 # Index of [0, 10, 20, 30] so an integer between 0 and 3
 utils.check_lidar_parameters()
 
 
-def gap_follower(distances: list[np.float64]) -> tuple[tuple[int, int], int, Callable]:
+def gap_follower(distances):
     """
     This function gets the lidar's information and return the 
 
